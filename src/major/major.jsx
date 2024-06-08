@@ -37,7 +37,7 @@ export const Major = ({ joinM, spinnerrr, pointer_handler })=>{
                 />
 
                 <p className='office'>
-                    Mrs. Basma Gamila <br />
+                    Mrs. Nouf Amani <br />
                     Sales Representative
                 </p>
             </div>
