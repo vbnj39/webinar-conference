@@ -1,0 +1,31 @@
+
+.top{
+    width: 100vw;
+    background-color: #00031f;
+    height: 40px;
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    justify-content: right;
+    position: fixed;
+    top: 0;
+}
+
+.tp_contn__t {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 6em;
+}
+
+.tp_contn__tfjffh{
+    /* display: flex; */
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.search_ico__n{
+    font-size: 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,69 @@
+
+.user_wrapper_online{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5em;
+}
+
+.user_details{
+    /* border: 1px solid #000; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+    justify-content: center;
+}
+
+.user_online{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    cursor: row-resize;
+    object-fit: cover;
+}
+
+.office{
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.join_wrappe___r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.btn_join{
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    background: rgb(19, 19, 182);
+    text-align: center;
+    background: #095ec4;
+    padding: 20px 200px;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all .123456s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_join:hover{
+    background: #2d8cff;
+}
+
+.spinner{
+    height: 30px;
+}
+
+.und:hover{
+    text-decoration: underline;
+}

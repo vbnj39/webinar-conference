@@ -1,0 +1,17 @@
+
+footer{
+    background: #39394d;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    font-size: 13px;
+}
