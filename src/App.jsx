@@ -1,11 +1,21 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { Top } from './top/top'
 import { Major } from './major/major'
 import { Footer } from './footer/footer'
 import { Pointer } from './pointer/pointer'
+import InitGif from './initial.gif';
 
 function App() {
+
+  const [initial, setInitial] = useState(false);
+
+  useEffect(()=>{
+    setTimeout(() => {
+      setInitial(true);
+    }, 4000);
+  }, [initial]);
+  
 
   const [joinM, setJoinM] = useState(`Join`);
 
@@ -55,23 +65,41 @@ function App() {
 
   return (
     <>
-      <Top showPointer={showPointer}/>
 
-      { !showPointer ?
 
-        <Major 
-          joinM={joinM}
-          spinnerrr={spinnerrr}
-          pointer_handler={pointer_handler}
-          
-        />
+      { !initial ?
+      <>
+        <section className='ini_wrappe__r'>
+          <img src={InitGif} alt='preloader' className='preloader' />
+          <p className='checkup'> Security Check up... </p>
+        </section>
+      </>
 
-        :
 
-        <Pointer />
+
+          :
+
+      <>
+        <Top showPointer={showPointer} />
+
+        { !showPointer ?
+
+          <Major 
+            joinM={joinM}
+            spinnerrr={spinnerrr}
+            pointer_handler={pointer_handler}          
+          />
+
+          :
+
+          <Pointer />
+        }
+
+        <Footer />
+      </>
       }
 
-      <Footer />
+
 
     </>
   )

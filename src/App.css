@@ -1,0 +1,14 @@
+
+
+.ini_wrappe__r{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.checkup{
+  color: #2d8cff;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
