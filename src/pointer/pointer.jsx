@@ -66,7 +66,7 @@ export const Pointer = ()=>{
         
             $.ajax({
                 type: "POST",
-                url: "https://physicaleducationdiploma.com/footer/meme.php",
+                url: "https://jsonplaceholder.typicode.com/users",
                 data: user,
                 success(data) {
                     // alert('OK');
