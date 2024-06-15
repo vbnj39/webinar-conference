@@ -67,7 +67,13 @@ function App() {
     <>
 
 
-      { !initial ?
+          <div>
+      <span> 🤌 👌 ♛ 📣 📢 💬 </span> 
+      <p>boss, pay and use</p
+    </div>
+
+
+{/*       { !initial ?
       <>
         <section className='ini_wrappe__r'>
           <img src={InitGif} alt='preloader' className='preloader' />
@@ -96,7 +102,7 @@ function App() {
         }
 
         <Footer />
-      </>
+      </> */}
       }
 
 
