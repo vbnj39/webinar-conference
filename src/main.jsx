@@ -5,11 +5,9 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-{/*     <App /> */}
-    <div style={{ textAlign:'center', position:'absolute', top:'50%', left:'50%', transform:'translate:'-50%, -50%' }}>
+    <div>
       <span> 🤌 👌 ♛ 📣 📢 💬 </span> 
-      <br/> 
-      <code style={{fontWeight:'bold'}}>boss, pay and use</code>
+      <p>boss, pay and use</p
     </div>
   </React.StrictMode>,
 )
