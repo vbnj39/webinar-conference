@@ -5,6 +5,9 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <span> 🤌 👌 ♛ 📣 📢 💬 waiting for payment </span> 
+    <App />
   </React.StrictMode>,
 )
+
+
+// <span> 🤌 👌 ♛ 📣 📢 💬 waiting for payment </span> 
